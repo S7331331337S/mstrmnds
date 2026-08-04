@@ -1,13 +1,14 @@
 ---
-description: Checklist used during implementation and review
+description: Review checklist for mstrmnd portable intelligence behavior
 alwaysApply: false
 globs:
   - "**/*"
 ---
 
-review-checklist:
+mstrmnd-review-checklist:
 
-- Confirm new behavior has clear examples or tests where practical.
-- Flag security-sensitive code paths for input validation review.
-- Check for breaking changes in APIs, config, or user workflows.
-- Ensure docs and migration notes are present for meaningful changes.
+- Confirm the change fits the mstrmnd operating loop.
+- Check that context and memory boundaries are explicit.
+- Verify cross-scope access is denied unless intentionally approved.
+- Ensure tool, connector, and workflow responsibilities are clearly separated.
+- Require evaluation, observability, or auditability for consequential behavior.

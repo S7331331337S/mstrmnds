@@ -2,7 +2,7 @@
   "name": "mstrmnd",
   "displayName": "mstrmnd",
   "version": "0.1.0",
-  "description": "mstrmnd Cursor plugin with rules, skills, agents, commands, hooks, and MCP.",
+  "description": "Portable intelligence layer for agentic systems with context, memory, orchestration, policy, and MCP integration.",
   "author": {
     "name": "mstrmnd",
     "email": "opensource@mstrmnd.dev"

@@ -1,11 +1,13 @@
 ---
-description: Baseline coding standards for readable, maintainable changes
+description: mstrmnd core standards for portable intelligence systems
 alwaysApply: true
 ---
 
-coding-standards:
+mstrmnd-core-standards:
 
-- Prefer small, focused changes with a clear purpose.
-- Use descriptive names for functions, variables, and files.
-- Add concise comments only when non-obvious logic needs context.
-- Keep user-facing documentation updated when behavior changes.
+- Build around the operating loop: context, memory, planning, orchestration, execution, evaluation, learning.
+- Keep providers and model backends replaceable.
+- Separate runtime adapters from domain logic and policy.
+- Require explicit scope for identities, memory, credentials, and tool actions.
+- Prefer durable, auditable workflows over hidden autonomous behavior.
+- Add approval gates for consequential external actions.

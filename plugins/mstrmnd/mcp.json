@@ -1,10 +1,11 @@
 {
   "mcpServers": {
-    "postgres": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres"],
+    "mstrmnd": {
+      "command": "pnpm",
+      "args": ["--filter", "@mstrmnd/mcp-server", "start"],
+      "cwd": "/path/to/mstrmnd-core",
       "env": {
-        "POSTGRES_CONNECTION_STRING": "${POSTGRES_URL}"
+        "OBSIDIAN_VAULT_PATH": "/path/to/your/vault"
       }
     }
   }
