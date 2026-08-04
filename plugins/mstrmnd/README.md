@@ -9,5 +9,5 @@ mstrmnd Cursor plugin.
 - `agents/`: security reviewer agent
 - `commands/`: deploy-staging command
 - `hooks/hooks.json`: hook definitions
-- `scripts/`: hook script placeholders
+- `scripts/`: hook scripts
 - `mcp.json`: MCP server config

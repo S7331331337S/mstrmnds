@@ -1,34 +1,24 @@
-# Cursor plugin template
+# mstrmnd Cursor plugin
 
-Build and publish Cursor Marketplace plugins from a single repo.
+Cursor plugin repository for mstrmnd.
 
-Two starter plugins are included:
+## Included
 
-- **starter-simple**: rules and skills only
 - **mstrmnd**: rules, skills, agents, commands, hooks, MCP, and scripts
 
-## Getting started
+## Validation
 
-[Use this template](https://github.com/cursor/plugin-template/generate) to create a new repository, then customize:
+Run:
 
-1. `.cursor-plugin/marketplace.json`: set marketplace `name`, `owner`, and `metadata`.
-2. `plugins/*/.cursor-plugin/plugin.json`: set `name` (lowercase kebab-case), `displayName`, `author`, `description`, `keywords`, `license`, and `version`.
-3. Replace placeholder rules, skills, agents, commands, hooks, scripts, and logos.
-
-To add more plugins, see `docs/add-a-plugin.md`.
-
-## Single plugin vs multi-plugin
-
-This template defaults to **multi-plugin** (multiple plugins in one repo).
-
-For a **single plugin**, move your plugin folder contents to the repository root, keep one `.cursor-plugin/plugin.json`, and remove `.cursor-plugin/marketplace.json`.
+```bash
+node scripts/validate-template.mjs
+```
 
 ## Submission checklist
 
-- Each plugin has a valid `.cursor-plugin/plugin.json`.
-- Plugin names are unique, lowercase, and kebab-case.
-- `.cursor-plugin/marketplace.json` entries map to real plugin folders.
+- The plugin has a valid `.cursor-plugin/plugin.json`.
+- The marketplace manifest points to the real plugin folder.
 - All frontmatter metadata is present in rule, skill, agent, and command files.
 - Logos are committed and referenced with relative paths.
 - `node scripts/validate-template.mjs` passes.
-- Repository link is ready for submission to the Cursor team (Slack or `kniparko@anysphere.com`).
+- The repository link is ready for submission to the Cursor team (Slack or `kniparko@anysphere.com`).

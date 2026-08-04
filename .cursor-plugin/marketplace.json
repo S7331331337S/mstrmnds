@@ -10,11 +10,6 @@
   },
   "plugins": [
     {
-      "name": "starter-simple",
-      "source": "./plugins/starter-simple",
-      "description": "Minimal plugin with rules and skills only"
-    },
-    {
       "name": "mstrmnd",
       "source": "./plugins/mstrmnd",
       "description": "mstrmnd Cursor plugin with rules, skills, agents, commands, hooks, and MCP"
