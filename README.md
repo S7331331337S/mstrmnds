@@ -5,7 +5,7 @@ Build and publish Cursor Marketplace plugins from a single repo.
 Two starter plugins are included:
 
 - **starter-simple**: rules and skills only
-- **starter-advanced**: rules, skills, agents, commands, hooks, MCP, and scripts
+- **mstrmnd**: rules, skills, agents, commands, hooks, MCP, and scripts
 
 ## Getting started
 

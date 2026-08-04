@@ -1,6 +1,6 @@
-# starter-advanced
+# mstrmnd
 
-Full-featured Cursor plugin starter.
+mstrmnd Cursor plugin.
 
 ## Included
 
