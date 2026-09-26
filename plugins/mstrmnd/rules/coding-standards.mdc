@@ -1,0 +1,13 @@
+---
+description: mstrmnd core standards for portable intelligence systems
+alwaysApply: true
+---
+
+mstrmnd-core-standards:
+
+- Build around the operating loop: context, memory, planning, orchestration, execution, evaluation, learning.
+- Keep providers and model backends replaceable.
+- Separate runtime adapters from domain logic and policy.
+- Require explicit scope for identities, memory, credentials, and tool actions.
+- Prefer durable, auditable workflows over hidden autonomous behavior.
+- Add approval gates for consequential external actions.

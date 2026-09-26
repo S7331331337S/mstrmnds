@@ -1,0 +1,13 @@
+{
+  "name": "mstrmnd",
+  "displayName": "mstrmnd",
+  "version": "0.1.0",
+  "description": "Portable intelligence layer for agentic systems with context, memory, orchestration, policy, and MCP integration.",
+  "author": {
+    "name": "mstrmnd",
+    "email": "opensource@mstrmnd.dev"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "rules", "skills", "agents", "commands", "hooks", "mcp"],
+  "logo": "assets/logo.svg"
+}

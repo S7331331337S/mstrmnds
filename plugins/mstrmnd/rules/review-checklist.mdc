@@ -1,0 +1,14 @@
+---
+description: Review checklist for mstrmnd portable intelligence behavior
+alwaysApply: false
+globs:
+  - "**/*"
+---
+
+mstrmnd-review-checklist:
+
+- Confirm the change fits the mstrmnd operating loop.
+- Check that context and memory boundaries are explicit.
+- Verify cross-scope access is denied unless intentionally approved.
+- Ensure tool, connector, and workflow responsibilities are clearly separated.
+- Require evaluation, observability, or auditability for consequential behavior.
